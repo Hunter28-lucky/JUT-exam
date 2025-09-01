@@ -61,11 +61,12 @@ app.use((req, res, next) => {
   }
   // ✅ Production: serve built frontend
   else {
-    const distPath = path.resolve(__dirname, "../dist/public");
+    // IMPORTANT FIX: path corrected for Render
+    const distPath = path.resolve(__dirname, "../client"); 
     app.use(express.static(distPath));
 
     // Catch-all -> index.html (for React Router / SPA)
-    app.get("*", (req, res) => {
+    app.get("*", (_req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });
   }
