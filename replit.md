@@ -1,8 +1,8 @@
-# JUT Official Hub
+# QW question wala Guss paper
 
 ## Overview
 
-A full-stack educational platform built for Jharkhand University of Technology students. The application provides study materials, resources, and payment processing through a package-based system. Students can select their semester and branch to access relevant educational content through Basic, Premium, and Ultimate packages.
+A full-stack educational platform built for QW question wala Guss paper students. The application provides study materials, resources, and payment processing through a package-based system. Students can select their semester and branch to access relevant educational content through Basic, Premium, and Ultimate packages.
 
 ## User Preferences
 
